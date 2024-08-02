@@ -20,6 +20,7 @@ int main()
 	Hero hero2("Bobby", warrior);
 	hero1.act();
 	hero2.act();
+	cout<< endl;
 
 	Shape* shape1 = new Circle(new Circle(new Polygon(4, new Shape())));
 	Shape* shape2 = new Polygon(5, new Polygon(4, new Polygon(3, new Circle(new Shape))));
